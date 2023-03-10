@@ -1,0 +1,34 @@
+{
+    "Filmes": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Titulo": {"S": "Tangos, Tequilas e Algumas Mentiras"},
+                  "Ano": {"S": "2023"},
+                  "Categorias": {"S": "Romance"},
+                  "IMDB": {"S": "5.0"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Titulo": {"S": "Volte Sempre!"},
+                  "Ano": {"S": "2023"},
+                  "Categorias": {"S": "Comédia / Drama"},
+                  "IMDB": {"S": "5.0"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Titulo": {"S": "Luther - O Cair da Noite"},
+                  "Ano": {"S": "2023"},
+                  "Categorias": {"S": "Drama / Mistério / Policial"},
+                  "IMDB": {"S": "7.0"}
+                }
+            }
+        }
+      ]
+}
